@@ -5,19 +5,19 @@ const Navbar = () => {
     return (
         <div className="flex gap-2 justify-center mt-2">
             <Link to="/">
-                <Button>Home</Button>
+                <Button variant='outline'>Home</Button>
             </Link>
             <Link to="/video">
-                <Button>Video Call</Button>
+                <Button variant='outline'>Video Call</Button>
             </Link>
             <Link to="/audio">
-                <Button>Audio Call</Button>
+                <Button variant='outline'>Audio Call</Button>
             </Link>
             <Link to="/speck">
-                <Button>Speck To Text</Button>
+                <Button variant='outline'>Speck To Text</Button>
             </Link>
             <Link to="/texttospeck">
-                <Button>Text To Speck</Button>
+                <Button variant='outline'>Text To Speck</Button>
             </Link>
         </div>
     )
