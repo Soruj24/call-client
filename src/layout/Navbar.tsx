@@ -1,23 +1,22 @@
-import { Button } from "@/components/ui/button"
 import { Link } from "react-router-dom"
 
 const Navbar = () => {
     return (
-        <div className="flex gap-2 justify-center mt-2">
+        <div className="flex gap-5 justify-center mt-2">
             <Link to="/">
-                <Button variant='outline'>Home</Button>
+                Home
             </Link>
             <Link to="/video">
-                <Button variant='outline'>Video Call</Button>
+                Video Call
             </Link>
             <Link to="/audio">
-                <Button variant='outline'>Audio Call</Button>
+                Audio Call
             </Link>
             <Link to="/speck">
-                <Button variant='outline'>Speck To Text</Button>
+                Speck To Text
             </Link>
             <Link to="/texttospeck">
-                <Button variant='outline'>Text To Speck</Button>
+                Text To Speck
             </Link>
         </div>
     )
